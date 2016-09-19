@@ -1,0 +1,142 @@
+/*!
+ * /colors/blue.css - blue color-set for this thems.
+ * Copyright (C) SmarTools Co. (https://smartools.co.kr)
+*/
+
+/** Navbar Colors **/
+#st-body .navbar-default {
+  background-color: #469fdb;
+  border-color: #2080c1;
+}
+#st-body .navbar-default .navbar-brand {
+  color: #ffffff;
+}
+#st-body .navbar-default .navbar-brand:hover,
+#st-body .navbar-default .navbar-brand:focus {
+  color: #ffffff;
+}
+#st-body .navbar-default .navbar-text {
+  color: #ffffff;
+}
+#st-body .navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+#st-body .navbar-default .navbar-nav > li > a:hover,
+#st-body .navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+}
+#st-body .navbar-default .navbar-nav > .active > a,
+#st-body .navbar-default .navbar-nav > .active > a:hover,
+#st-body .navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #2080c1;
+}
+#st-body .navbar-default .navbar-nav > .open > a,
+#st-body .navbar-default .navbar-nav > .open > a:hover,
+#st-body .navbar-default .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #2080c1;
+}
+#st-body .navbar-default .navbar-toggle {
+  border-color: #2080c1;
+}
+#st-body .navbar-default .navbar-toggle:hover,
+#st-body .navbar-default .navbar-toggle:focus {
+  background-color: #2080c1;
+}
+#st-body .navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+#st-body .navbar-default .navbar-collapse,
+#st-body .navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+#st-body .navbar-default .navbar-link {
+  color: #ffffff;
+}
+#st-body .navbar-default .navbar-link:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  #st-body .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  #st-body .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  #st-body .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+  }
+  #st-body .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  #st-body .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  #st-body .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #2080c1;
+  }
+  #st-body .navbar-default .navbar-collapse,
+  #st-body .navbar-default .navbar-form {
+    border-color: #2080c1;
+  }  
+  #st-body .dropdown-menu .divider {
+    background-color: #2080c1;
+  }  
+}
+
+@media (min-width: 768px) {
+	#st-body .dropdown-menu > .active > a, #st-body .dropdown-menu > .active > a:hover, #st-body .dropdown-menu > .active > a:focus { 
+		color: #fff;
+		background-color: #2080c1; 
+	}
+}
+
+
+/** Common controls **/
+#st-body .list-group-item.active, #st-body .list-group-item.active:focus, #st-body .list-group-item.active:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: #469fdb;
+    border-color: #469fdb;
+}
+#st-body .btn {
+	font-weight: bold;
+}
+#st-body .btn-primary {
+	background-color: #469fdb;
+	border-color: #2080c1;
+}
+#st-body .btn-primary:hover, 
+#st-body .btn-primary:focus, 
+#st-body .btn-primary:active, 
+#st-body .btn-primary.active, 
+#st-body .open .dropdown-toggle.btn-primary {
+	background-color: #2080c1;
+	border-color: #2080c1;
+}
+#st-body .btn-primary.disabled, 
+#st-body .btn-primary[disabled],
+#st-body fieldset[disabled] .btn-primary, 
+#st-body .btn-primary.disabled:hover,
+#st-body .btn-primary[disabled]:hover, 
+#st-body fieldset[disabled] .btn-primary:hover,
+#st-body .btn-primary.disabled:focus, 
+#st-body .btn-primary[disabled]:focus,
+#st-body fieldset[disabled] .btn-primary:focus, 
+#st-body .btn-primary.disabled:active,
+#st-body .btn-primary[disabled]:active, 
+#st-body fieldset[disabled] .btn-primary:active,
+#st-body .btn-primary.disabled.active, 
+#st-body .btn-primary[disabled].active,
+#st-body fieldset[disabled] .btn-primary.active {
+	background-color: #469fdb;
+	border-color: #2080c1;
+}
+#st-body .panel-primary {
+	border-color: #2080c1;
+}
+#st-body .panel-primary > .panel-heading {
+	color: #fff;
+	background-color: #469fdb;
+	border-color: #2080c1;
+}
+#st-body .panel-primary > .panel-heading a {
+	color: #fff;
+}

@@ -1,0 +1,5 @@
+@charset "utf-8";
+#st-basic p { margin-bottom: 0; }
+
+/* 내용관리 */
+.ctt_admin {text-align:right}

@@ -1,0 +1,11 @@
+@charset "utf-8";
+#st-adm { padding: 15px 0; }
+#st-adm table { table-layout: fixed; word-break: break-all; }
+#st-adm td .info {
+    color: #5b747e;
+    padding-top: 5px;
+}
+#menulist .sub_menu_class.third {
+    padding-left: 50px;
+    background: url('../img/sub_menu_ico.gif') 30px 15px no-repeat;
+}

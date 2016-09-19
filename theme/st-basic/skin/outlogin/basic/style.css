@@ -1,0 +1,10 @@
+@charset "utf-8";
+#st-ol { padding: 10px; border: 1px solid #ddd; border-radius: 4px; margin-bottom: 20px; }
+#st-ol .input-group { width: 100%; margin-bottom: 5px; }
+#st-ol .input-group-addon {
+    color: #999;
+    background-color: #fff;
+    border-radius: 0;
+}
+#st-ol .mb_name .fa { position: relative; top: -1px; }
+#st-ol .mb_name .mb_icon { position: relative; top: -2px; }

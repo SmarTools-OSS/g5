@@ -1,0 +1,9 @@
+@charset "utf-8";
+/** 게시물 목록 **/
+#st-basic .table { border-bottom: #999 solid 2px; margin-bottom: 10px; }
+#st-basic .table caption { display: none; }
+#st-basic .table th { min-height: 40px; border-top: 2px solid #999; border-bottom: 1px solid #999; background: #fcfcfc; font-weight: bold; color: #777; }
+#st-basic .table td { vertical-align: middle; }
+#st-basic .table td a { color: #333; line-height: 150%; }
+#st-basic .table .num { width: 75px; text-align: center; }
+#st-basic .table .name { width: 135px; text-align: center; }

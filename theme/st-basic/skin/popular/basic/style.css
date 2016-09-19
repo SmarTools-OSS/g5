@@ -1,0 +1,6 @@
+@charset "utf-8";
+#st-popular { padding: 10px 0; border-top: 1px dotted #dde4e9; }
+#st-popular td { vertical-align: middle; }
+#st-popular td.title { width: 100px; font-size: 14px; font-weight: bold; }
+#st-popular td.tags { font-size: 15px; }
+#st-popular td.tags .label { position: relative; top: 2px; display: inline-block; font-size: 85%; padding: .2em .6em .1.5em; margin: 0 5px 5px 0; line-height: 1.5; }

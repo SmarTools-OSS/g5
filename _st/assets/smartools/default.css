@@ -1,0 +1,119 @@
+/*!
+ * ST common style framework for Bootstrap 3.x
+ * Copyright (C) 2016 SmarTools Co. (http://smartools.co.kr)
+*/
+#st-body {
+	font-family: 'Helvetica Neue', Helvetica, Arial, 'Malgun Gothic', '돋움', Dotum;
+}
+#st-body a:focus { outline: none; }
+#st-body .btn:focus { outline: none; }
+#st-body .msg_sound_only, .sound_only {
+    display: inline-block !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 0;
+    line-height: 0;
+    border: 0 !important;
+    overflow: hidden !important;
+}
+#st-body .row-tiny {
+	margin-right: -7px;
+	margin-left: -7px;
+}
+#st-body .col-tiny {
+	padding-right: 7px;
+	padding-left: 7px;
+}
+#st-body .visible-xs-v { display: none !important; }
+#st-body .visible-xs-v-inline { display: none !important; }
+@media (max-width: 480px) {
+	#st-body .hidden-xs-v { display: none !important; }
+	#st-body .visible-xs-v { display: block !important; }
+	#st-body .visible-xs-v-inline { display: inline-block !important; }
+	#st-body .col-xs-v6 { width: 50% !important; }
+	#st-body .col-xs-v12 { width: 100% !important; }
+}
+#st-body .keep-all { 
+	word-break: keep-all; 
+}
+#st-body .ellipsis {
+	width: 100%;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#st-body .ellipsis-li {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#st-body .ellipsis-multi {
+	display: -webkit-box;
+	overflow: hidden; 
+	text-overflow: ellipsis; 
+	-webkit-box-orient: vertical; 
+	word-wrap:break-word;
+}
+#st-body .ellipsis-multi.l2 {
+	-webkit-line-clamp: 2;
+}
+#st-body .ellipsis-multi.l3 {
+	-webkit-line-clamp: 3;
+}
+#st-body .bold { font-weight: bold; }
+#st-body .center { margin: 0 auto; }
+#st-body .vtop { vertical-align: top; }
+#st-body .vbottom { vertical-align: bottom; }
+#st-body .vmiddle { vertical-align: middle; }
+#st-body .vmiddle-wrapper {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+#st-body .vmiddle-section {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+#st-body .navbar-nav > li > a { font-weight: bold; }
+#st-body .input-sm { font-size: 13px; }
+#st-body label.input { font-weight: normal; }
+#st-body label.input > input[type="checkbox"], 
+#st-body label.input > input[type="radio"] {
+    position: relative;
+    top: 1px;
+}
+
+
+#st-body .page-header { margin: 0 0 15px; }
+#st-body .page-header > .title { margin: 0; }
+#st-body .page-header > .title > .fa { position: relative; top: -2px; }
+#st-body .page-desc { position: relative; top: -5px; margin-bottom: 25px; }
+#st-body ul.page-desc { padding: 0 0 0 20px; margin: 0 0 25px 0; }
+#st-body ul.page-desc > li { line-height: 1.5; }
+
+#st-body .actions { width: 100%; padding: 0; }
+#st-body .actions:before, #st-body .actions:after { display: table; content: " "; }
+#st-body .actions:after { clear: both; }
+#st-body .actions .left { float: left; }
+#st-body .actions .right { float: right; }
+#st-body .actions .btn { margin-bottom: 10px; }
+
+#st-body .content { min-height: 350px; }
+#st-body .sch_word { color: #555; background-color: #ffff00; }
+
+
+/* 캡챠 자동등록(입력)방지 기본 -pc */
+#captcha {display:inline-block;position:relative}
+#captcha legend {display:none}
+#captcha #captcha_img {width:162px;height:62px;border:1px solid #e9e9e9;vertical-align:top;padding:0;margin:0}
+#captcha #captcha_mp3 {position:absolute;top:0;left:161px;margin:0;padding:0;width:31px;height:31px;border:0;background:transparent;vertical-align:middle;overflow:hidden;cursor:pointer}
+#captcha #captcha_mp3 span {position:absolute;top:0;left:0;width:31px;height:31px;background:url('../../../img/captcha.png') no-repeat;}
+#captcha #captcha_reload {position:absolute;top:31px;left:161px;margin:0;padding:0;width:31px;height:31px;border:0;background:transparent;vertical-align:middle;overflow:hidden;cursor:pointer;background:url('../../../img/captcha.png') no-repeat  0 -30px;border-top:1px solid #ccc;text-indent:-999px}
+#captcha #captcha_key {margin:0 0 0 33px;padding:0 5px;width:125px;height:62px;border:1px solid #b8c9c2;background:#f7f7f7;font-size:1.333em;font-weight:bold;text-align:center;line-height:2.8em;vertical-align:top}
+#captcha #captcha_info {display:block;margin:5px 0 10px;font-size:0.95em;letter-spacing:-0.1em}

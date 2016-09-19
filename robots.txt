@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /_st/
+Disallow: /adm/ 
+Disallow: /data/
+Disallow: /extend/
+Disallow: /install/
+Disallow: /js/
+Disallow: /lib/
+Disallow: /mypage/
+Disallow: /plugin/
+Disallow: /skin/
+Disallow: /theme/

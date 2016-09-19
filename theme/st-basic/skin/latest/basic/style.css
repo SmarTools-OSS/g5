@@ -1,0 +1,15 @@
+@charset "utf-8";
+#st-body .latest.st-basic { margin-bottom: 25px; }
+#st-body .latest.st-basic .header { width: 100%; margin-bottom: 15px; border-bottom: 2px solid #555; clear: both; }
+#st-body .latest.st-basic .header .title { float: left; font-size: 16px; font-weight: bold; margin: 0 0 10px; clear: both; position: relative; }
+#st-body .latest.st-basic .header .title a { color: #555; text-decoration: none; }
+#st-body .latest.st-basic .header .more { float: right; margin-top: 4px; }
+#st-body .latest.st-basic .header .more a { color: #555; height: 100%; }
+#st-body .latest.st-basic ul.body { margin: 0 0 10px; padding: 0; list-style: none; }
+#st-body .latest.st-basic ul.body li { padding: 0 0 5px; }
+#st-body .latest.st-basic ul.body li a { color: #555; }
+#st-body .latest.st-basic ul.body li .label { position: relative; top: -2px; }
+#st-body .latest.st-basic ul.body li .icon { color: #777; padding: 0 3px; }
+#st-body .latest.st-basic ul.body li .icon-hot { color: #e8180c; }
+#st-body .latest.st-basic ul.body li .new { color: #e8180c; }
+#st-body .latest.st-basic ul.body li .comment { color: #e8180c; }

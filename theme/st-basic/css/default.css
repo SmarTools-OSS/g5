@@ -1,0 +1,267 @@
+/*!
+ * default.css - default styles for this theme.
+ * Copyright (C) SmarTools Co. (https://smartools.co.kr)
+*/
+
+/** Topbar **/
+#st-body .topbar {
+	background-color: #f8f8f8;
+	border-bottom: 1px solid #ddd;
+}
+#st-body .topbar .btn-group {
+	border-radius: 0;
+}
+
+
+/** PCbar **/
+#st-body .pcbar {
+	padding: 15px 0 15px 0;
+}
+#st-body .pcbar .brand {
+	font-size: 24px;
+	font-weight: bold;
+}
+#st-body .pcbar .brand a {
+	color: #333;
+	text-decoration: none;
+}
+
+/** Navbar **/
+#st-body .navbar { border-radius: 0; }
+#st-body .navbar-nav > li > a { font-weight: bold; }
+#st-body .navbar-nav .label-logged-in {
+    font-size: 10px;
+    position: relative;
+    top: -5px;
+    padding: 1px 3px;
+}
+#st-body .navbar-nav .search {
+	margin: 0 15px;
+}
+#st-body .navbar-nav .panel-search {
+	min-width: 250px;
+	box-shadow: 0 0;
+	-webkit-box-shadow: 0 0;
+	margin-bottom: 0;
+}
+
+#st-body .navbar-nav .dropdown-submenu { position:relative; }
+#st-body .navbar-nav .dropdown-submenu > .dropdown-menu { top:0; left:100%; margin-top:-6px; margin-left:-2px; -webkit-border-radius:0 0 6px 0; -moz-border-radius:0 0 6px 0; border-radius:0 0 6px 0; }
+#st-body .navbar-nav .dropdown-submenu > a:after { display:block; content:" "; float:right; width:0; height:0; border-color:transparent; border-style:solid; border-width:5px 0 5px 5px; border-left-color:#cccccc; margin-top:5px; margin-right:-10px;}
+#st-body .navbar-nav .dropdown-submenu.pull-left { float:none; }
+#st-body .navbar-nav .dropdown-submenu.pull-left > .dropdown-menu { left:-100%; margin-left:10px; -webkit-border-radius:6px 0 6px 6px; -moz-border-radius:6px 0 6px 6px; border-radius:6px 0 6px 6px; }
+
+@media (max-width: 767px) {
+	#st-body .navbar-nav .dropdown-submenu > a:after {
+		margin-right: 0;
+	}
+	#st-body .navbar-nav .dropdown-submenu .dropdown-menu {
+		margin-top: 0;
+		margin-left: 0;
+	}
+	#st-body .navbar-nav .dropdown-submenu .dropdown-menu li {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+@media (min-width: 768px) {
+	#st-body .dropdown-menu > .active > a, #st-body .dropdown-menu > .active > a:hover, #st-body .dropdown-menu > .active > a:focus { 
+		color: #fff;
+		background-color: #337ab7; 
+	}
+	#st-body .navbar-collapse {
+		padding-right: 0;
+		padding-left: 0;	
+	}
+}
+
+
+/** Slider (carousel) **/
+#st-body .carousel-main { margin-bottom: 30px; }
+#st-body .carousel-main .item { 
+	width: 100%;
+	overflow: hidden;
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+@media (max-width: 767px) {
+	#st-body .carousel-wrapper {
+		margin: -20px -15px 0;
+	}
+}
+
+
+/** Sidebar **/
+#st-body .sidebar .banner {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 10px;
+}
+#st-body .sidebar .banner img {
+	margin: 0 auto;	
+}
+
+
+/** Footer **/
+#st-body .footer {
+	margin-top: 30px;
+}
+#st-body .footer .footbar {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+	background-color: #f8f8f8;
+}
+#st-body .footer .footbar .btn-group {
+	border-radius: 0;
+}
+#st-body .footer .content {
+	color: #ccc;
+	line-height: 1.7;
+	background-color: #333;
+	min-height: 20px;
+	padding: 30px 0;
+}
+#st-body .footer .content a, 
+#st-body .footer .content a:hover { 
+	color: #fff; 
+}
+#st-body .footer .content .divider {
+    color: #666;
+    font-size: 80%;
+    position: relative;
+    top: -1px;
+    margin: 0 7px;
+}
+#st-body .footer .content hr {
+    border-top: 1px solid #444;
+}
+#st-body .footer .copyright {
+	color: #ccc;
+	text-align: center;
+	background-color: #222;
+	padding: 10px 0;	
+}
+#st-body .footer .copyright a, 
+#st-body .footer .copyright a:hover { 
+	color: #fff; 
+}
+@media (max-width: 991px) {
+	#st-body .footer .content {
+		text-align: center;
+	}
+}
+
+
+/** Common **/
+#st-body .btn-nav {
+	color: #777;
+	font-weight: normal;
+	background-color: #f8f8f8;
+    height: 30px;
+    line-height: 30px;	
+	border-top: 0;
+	border-bottom: 0;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-radius: 0;
+	padding: 0 10px;
+}
+#st-body .btn-nav:hover,
+#st-body .btn-nav:active,
+#st-body .btn-nav.active {
+	color: #3b3b3b;
+}
+#st-body .btn-nav .fa {
+	font-size: 1.3em;
+	position: relative;
+	top: 1px;
+}
+#st-body .btn-nav .glyphicon {
+	font-size: 1.2em;
+	position: relative;
+	top: 2px;
+}
+
+
+/** Preloader **/
+#st-preloader {
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color: #ffffff;
+	z-index:999999; 
+}
+#st-preloader .spinner {
+	margin: 150px auto 0;
+	width: 70px;
+	text-align: center;
+	position:fixed;
+	z-index:999999;
+	width:250px;
+	height:250px;
+	position:absolute;
+	left:50%; 
+	top:50%; 
+	background-size:32px 32px;
+	background-repeat:no-repeat;
+	background-position:center;
+	margin:-125px 0 0 -125px; 
+}
+#st-preloader .spinner > div {
+	width: 18px;
+	height: 18px;
+	background-color: #ccc;
+	border-radius: 100%;
+	display: inline-block;
+	-webkit-animation: bouncedelay 1.4s infinite ease-in-out;
+	animation: bouncedelay 1.4s infinite ease-in-out;
+	/* Prevent first frame from flickering when animation starts */
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+#st-preloader .spinner .bounce1 {
+	-webkit-animation-delay: -0.32s;
+	animation-delay: -0.32s;
+}
+#st-preloader .spinner .bounce2 {
+	-webkit-animation-delay: -0.16s;
+	animation-delay: -0.16s;
+}
+@-webkit-keyframes bouncedelay {
+	0%, 80%, 100% { -webkit-transform: scale(0.0) }
+	40% { -webkit-transform: scale(1.0) }
+}
+@keyframes bouncedelay {
+	0%, 80%, 100% {
+		transform: scale(0.0);
+		-webkit-transform: scale(0.0);
+	} 40% {
+		transform: scale(1.0);
+		-webkit-transform: scale(1.0);
+	}
+}
+
+
+/** Back to top menu **/
+#st-backtotop {
+	color: #fff;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    text-decoration: none;
+    padding: 16px;
+    display: none;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#33000000, endColorstr=#33000000)";
+	background: rgba(0,0,0,0.4);
+	z-index: 5000;
+	cursor: pointer;
+}
+#st-backtotop:hover {    
+	background-color: #333;
+}
