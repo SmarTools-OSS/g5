@@ -61,15 +61,15 @@ echo '<div id="faq_hhtml">'.conv_content($fm['fm_head_html'], 1).'</div>';
 				continue;
 		?>	
 		<div class="panel panel-default">
-			<div class="panel-heading" role="tab" id="heading-<?echo $i?>">
-				<a role="button" data-toggle="collapse" data-parent="<?=($multi_expandable)? '#': '#faqlist'?>" href="#collapse-<?echo $i?>" aria-expanded="true" aria-controls="collapse-<?echo $i?>">
+			<div class="panel-heading" role="tab" id="heading-<?=$i?>">
+				<a role="button" data-toggle="collapse" data-parent="<?=($multi_expandable)? '#': '#faqlist'?>" href="#collapse-<?=$i?>" aria-expanded="true" aria-controls="collapse-<?=$i?>">
 					<h5 class="panel-title">
 						<span class="label label-default label-q">Q</span>
 							<?=strip_tags(conv_content($v['fa_subject'], 1)); ?>
 					</h5>
 				</a>
 			</div>
-			<div id="collapse-<?echo $i?>" class="panel-collapse collapse<?=(!$i)? ' in': ''?>" role="tabpanel" aria-labelledby="heading-<?echo $i?>">
+			<div id="collapse-<?=$i?>" class="panel-collapse collapse<?=(!$i)? ' in': ''?>" role="tabpanel" aria-labelledby="heading-<?=$i?>">
 				<div class="panel-body">
 					<span class="label label-info label-ans">A</span>
 					<div class="faq-content"><?=conv_content($v['fa_content'], 1); ?></div>
