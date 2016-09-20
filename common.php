@@ -39,6 +39,7 @@ function g5_path()
     $host = isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : $_SERVER['SERVER_NAME'];
     if(isset($_SERVER['HTTP_HOST']) && preg_match('/:[0-9]+$/', $host))
         $host = preg_replace('/:[0-9]+$/', '', $host);
+    $host = preg_replace("/[\<\>\'\"\\\'\\\"\%\=\(\)\/\^\*]/", '', $host);
     $result['url'] = $http.$host.$port.$user.$root;
     return $result;
 }
@@ -151,7 +152,7 @@ if (file_exists($dbconfig_file)) {
 <body>
 
 <div id="ins_bar">
-    <span id="bar_img">GNUBOARD5 (with SmarTools Builder for G5/YC5)</span>
+    <span id="bar_img">GNUBOARD5 (with 스마툴즈 빌더 for G5)</span>
     <span id="bar_txt">Message</span>
 </div>
 <h1>그누보드5를 먼저 설치해주십시오.</h1>

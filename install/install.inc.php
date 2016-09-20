@@ -14,7 +14,7 @@ if (!$title) $title = G5_VERSION." 설치";
 <body>
 
 <div id="ins_bar">
-    <span id="bar_img">GNUBOARD5 (with SmarTools Builder for G5/YC5)</span>
+    <span id="bar_img">GNUBOARD5 (with 스마툴즈 빌더 for G5)</span>
     <span id="bar_txt">INSTALLATION</span>
 </div>
 
