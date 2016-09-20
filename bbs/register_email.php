@@ -17,6 +17,13 @@ $key  = md5($mb['mb_ip'].$mb['mb_datetime']);
 
 if(!$ckey || $ckey != $key)
     alert('올바른 방법으로 이용해 주십시오.', G5_URL);
+
+$skin_file = $member_skin_path.'/register_email.skin.php';
+if( file_exists($skin_file) ) {
+	include_once($skin_file);
+	include_once('./_tail.php');
+	return;
+}
 ?>
 
 <p class="rg_em_p">메일인증을 받지 못한 경우 회원정보의 메일주소를 변경 할 수 있습니다.</p>
