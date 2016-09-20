@@ -48,9 +48,9 @@
 				</div>
 				<div class="col-md-3 links">
 					<hr class="visible-sm-block visible-xs-block">
-					· <a href="<?=G5_BBS_URL?>/content.php?co_id=sitemap">사이트맵</a><br>
-					· <a href="<?=G5_BBS_URL?>/content.php?co_id=point">포인트정책</a><br>
-					· <a href="<?=G5_BBS_URL?>/content.php?co_id=location">찾아오시는길</a><br>
+					· <a href="#">사이트맵</a><br>
+					· <a href="#">포인트정책</a><br>
+					· <a href="#">찾아오시는길</a><br>
 				</div>
 			</div>		
 		</div>

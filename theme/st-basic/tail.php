@@ -17,7 +17,7 @@
 	<?php } else { ?>
 			</div><!--/.col-* for content -->
 			<div class="col-md-3<?=$st_layout_sub==2? ' col-md-pull-9': ''?>">
-				<?php include_once G5_THEME_PATH.'/_inc/sidebar.php'?>
+				<?php include_once G5_THEME_PATH.'/_inc/sidebar.php'; // 사이드바?>
 			</div>
 		</div><!--/.row -->
 	</div><!--/.container -->

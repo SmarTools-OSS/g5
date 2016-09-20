@@ -1,7 +1,7 @@
 <?php if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가?>
 
 
-<?php 
+<?php
 $st_slider_use = $ST->theme->get('st_slider_use');
 
 if( $st_slider_use == 1 or (!is_mobile() and $st_slider_use==2) or (is_mobile() and $st_slider_use==3) ) { 
@@ -26,6 +26,9 @@ $st_slider_bg_color = $ST->theme->get('st_slider_bg_color');
 		padding-bottom: 0;
 	}
 }
+<?php if( defined('_INDEX_') and !$ST->theme->get('st_layout_main') ) { // 메인 페이지 레이아웃이 컨테이너(.container) 없음 + 전체 폭 일 때, Navbar 와의 공간 제거?>
+#st-body .carousel-wrapper { margin-top: -20px; }
+<?php } ?>
 </style>
 
 <section class="carousel-wrapper">

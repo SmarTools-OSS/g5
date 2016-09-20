@@ -15,15 +15,15 @@ is_mobile()
 	<div class="content">
 		<?php include (is_mobile()? G5_MOBILE_PATH: G5_BBS_PATH).'/newwin.inc.php'; // 팝업레이어 (index에서만 실행)?>		
 	
-		<?php include_once G5_THEME_PATH.'/_inc/slider.php'?>
-		<?php include_once G5_THEME_PATH.'/_inc/main.php'?>
+		<?php include_once G5_THEME_PATH.'/_inc/slider.php'; // 슬라이더?>
+		<?php include_once G5_THEME_PATH.'/_inc/main.php'; // 메인 페이지?>
 	</div>		
 	<?php } elseif( $st_layout_main==1 ) { ?>
 	<div class="container content">
 		<?php include (is_mobile()? G5_MOBILE_PATH: G5_BBS_PATH).'/newwin.inc.php'; // 팝업레이어 (index에서만 실행)?>		
 		
-		<?php include_once G5_THEME_PATH.'/_inc/slider.php'?>
-		<?php include_once G5_THEME_PATH.'/_inc/main.php'?>
+		<?php include_once G5_THEME_PATH.'/_inc/slider.php'; // 슬라이더?>
+		<?php include_once G5_THEME_PATH.'/_inc/main.php'; // 메인 페이지?>
 	</div>		
 	<?php } else { ?>
 	<div class="container content">
@@ -31,11 +31,11 @@ is_mobile()
 	
 		<div class="row">
 			<div class="col-md-9<?=$st_layout_main==2? ' col-md-push-3': ''?>">
-				<?php include_once G5_THEME_PATH.'/_inc/slider.php'?>
-				<?php include_once G5_THEME_PATH.'/_inc/main.php'?>
+				<?php include_once G5_THEME_PATH.'/_inc/slider.php'; // 슬라이더?>
+				<?php include_once G5_THEME_PATH.'/_inc/main.php'; // 메인 페이지?>
 			</div>
 			<div class="col-md-3<?=$st_layout_main==2? ' col-md-pull-9': ''?>">
-				<?php include_once G5_THEME_PATH.'/_inc/sidebar.php'?>
+				<?php include_once G5_THEME_PATH.'/_inc/sidebar.php'; // 사이드바?>
 			</div>	
 		</div>
 	</div>
