@@ -131,6 +131,9 @@
     cursor: inherit;
     display: block;
 }
+#st-write input[type="submit"] {
+    font-family: FontAwesome;
+}
 
 
 /* 게시판 댓글 */

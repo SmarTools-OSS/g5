@@ -207,7 +207,7 @@ if( is_mobile() or (!is_mobile() and !$is_dhtml_editor) ) {
 	<hr style="margin-bottom: 10px">
 	<div class="text-right">
         <a href="./board.php?bo_table=<?=$bo_table ?>" class="btn btn-sm btn-default">취소</a>
-		<button type="submit" id="btn_submit" accesskey="s" class="btn btn-sm btn-primary"><i class="fa fa-check" aria-hidden="true"></i> 작성완료</button>
+		<input type="submit" id="btn_submit" value="&#xf00c; 작성완료" class="btn btn-sm btn-primary" accesskey="s">
 	</div>
     </form>
 </div>

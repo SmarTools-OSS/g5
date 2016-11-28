@@ -302,12 +302,12 @@ class ST_Core {
 		}			
 
 		$head .= '<!-- ST CSS framework for Bootstrap 3.x -->
-		<link rel="stylesheet" href="'.ST_URL.'/assets/smartools/default.css">
+		<link rel="stylesheet" href="'.ST_URL.'/assets/smartools/default.css?ver='.G5_CSS_VER.'">
 		';
 		
 		if( is_mobile() ) {
 		$head .= '<!-- ST CSS framework for mobile only -->
-		<link rel="stylesheet" href="'.ST_URL.'/assets/smartools/mobile.css">
+		<link rel="stylesheet" href="'.ST_URL.'/assets/smartools/mobile.css?ver='.G5_CSS_VER.'">
 		';
 		}
 		return $head;
@@ -367,8 +367,8 @@ class ST_Core {
 		
 		$head .= '		
 		<!-- ST JS framework -->
-		<script src="'.ST_URL.'/assets/smartools/default.js"></script>
-		';			
+		<script src="'.ST_URL.'/assets/smartools/default.js?ver='.G5_JS_VER.'"></script>
+		';
 		return $head;
 	}	
 }

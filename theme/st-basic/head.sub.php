@@ -54,7 +54,7 @@ if( ST::has_active_url(ST_SETTING_URL) )
 		
 		<!-- Default styles for this theme -->
 		<title><?=$g5_head_title; ?></title>
-		<link rel="stylesheet" href="<?=G5_THEME_CSS_URL?>/default.css">
+		<link rel="stylesheet" href="<?=G5_THEME_CSS_URL?>/default.css?ver=<?=G5_CSS_VER?>">
 		
 		<?php
 		$st_navbar_color_set = $ST->theme->get('st_navbar_color_set');
@@ -63,17 +63,17 @@ if( ST::has_active_url(ST_SETTING_URL) )
 		if( file_exists($css_file) ) { 
 		?>
 		<!-- Color-set styles for this theme -->
-		<link rel="stylesheet" href="<?=G5_THEME_CSS_URL?>/colors/<?=$st_navbar_color_set?>.css">
+		<link rel="stylesheet" href="<?=G5_THEME_CSS_URL?>/colors/<?=$st_navbar_color_set?>.css?ver=<?=G5_CSS_VER?>">
 		<?php } ?>		
 		
 		<?php if( is_mobile() and file_exists(G5_THEME_PATH.'/css/mobile.css') ) { ?>
 		<!-- Mobile-only styles for this theme -->
-		<link rel="stylesheet" href="<?=G5_THEME_CSS_URL?>/mobile.css">
+		<link rel="stylesheet" href="<?=G5_THEME_CSS_URL?>/mobile.css?ver=<?=G5_CSS_VER?>">
 		<?php } ?>
 		
 		<?php if( file_exists(G5_THEME_PATH.'/css/style.css') ) { ?>
 		<!-- User custom styles -->
-		<link rel="stylesheet" href="<?=G5_THEME_CSS_URL?>/style.css">
+		<link rel="stylesheet" href="<?=G5_THEME_CSS_URL?>/style.css?ver=<?=G5_CSS_VER?>">
 		<?php } ?>		
 		
 		<!-- G5 JS framework -->
@@ -89,8 +89,8 @@ if( ST::has_active_url(ST_SETTING_URL) )
 		var g5_editor    = "<?=($config['cf_editor'] && $board['bo_use_dhtml_editor'])?$config['cf_editor']:''; ?>";
 		var g5_cookie_domain = "<?=G5_COOKIE_DOMAIN ?>";
 		</script>
-		<script src="<?=G5_JS_URL ?>/common.js"></script>
-		<script src="<?=G5_JS_URL ?>/wrest.js"></script>
+		<script src="<?=G5_JS_URL ?>/common.js?ver=<?php echo G5_JS_VER; ?>"></script>
+		<script src="<?=G5_JS_URL ?>/wrest.js?ver=<?php echo G5_JS_VER; ?>"></script>
 	
 		<?php
 		if( !defined('G5_IS_ADMIN') and $config['cf_add_script'] ) {
