@@ -17,7 +17,7 @@ class ST_Config extends ST_Base {
 		switch($key) {
 		case 'st_bootstrap_ver':				$val = '3.3.7';				break;
 		case 'st_jquery_ver':					$val = '1.12.4';			break;
-		case 'st_fa_ver':							$val = '4.6.3';				break;
+		case 'st_fa_ver':							$val = '4.7.0';				break;
 		case 'st_ie_warning';					$val = '7';					break;
 		
 		case 'is_debug':							$val = '1';					break;
