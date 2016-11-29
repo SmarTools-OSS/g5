@@ -11,7 +11,7 @@
 			<div class="btn-group btn-group-sm pull-left" role="group">
 				<a href="<?=G5_BBS_URL?>/content.php?co_id=company" class="btn btn-nav">회사소개</a>
 				<a href="<?=G5_BBS_URL?>/content.php?co_id=provision" class="btn btn-nav">서비스이용약관</a>
-				<a href="<?=G5_BBS_URL?>/content.php?co_id=privacy" class="btn btn-nav">개인정보취급방침</a>
+				<a href="<?=G5_BBS_URL?>/content.php?co_id=privacy" class="btn btn-nav">개인정보처리방침</a>
 			</div>
 			<div class="btn-group btn-group-sm pull-right" role="group">
 				<a href="#st-body" class="btn btn-nav"><span class="glyphicon glyphicon-chevron-up"></span></a>

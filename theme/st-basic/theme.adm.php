@@ -83,6 +83,14 @@
 					<div class="info">애니메이션 실행 시간값(ms)으로, 클수록 로딩이 느려지는 효과가 발생합니다.</div>	
 				</td>
 			</tr>				
+			<tr>
+				<th scope="row">메인 페이지 소스코드</th>
+				<td>
+					<div class="info">필요한 경우, <strong>/theme/st-basic/_inc/main.php</strong> 파일을 직접 수정하세요.</div>		
+				</td>		
+				<th scope="row"></th>
+				<td></td>		
+			</tr>				
 			</tbody>
 			</table>
 		</div>			
@@ -174,8 +182,10 @@
 					</select>				
 					<div class="info">테마에 내장된 몇몇 컬러셋으로 손쉽게 .navbar 의 색상과 분위기를 바꿀 수 있습니다.</div>
 				</td>		
-				<th scope="row"></th>
-				<td></td>										
+				<th scope="row">헤더영역 소스코드</th>
+				<td>
+					<div class="info">필요한 경우, <strong>/theme/st-basic/_inc/header.php</strong> 파일을 직접 수정하세요.</div>
+				</td>										
 			</tr>
 			</tbody>
 			</table>
@@ -277,6 +287,14 @@
 				</td>					
 			</tr>				
 			<?php } ?>
+			<tr>
+				<th scope="row">슬라이더 소스코드</th>
+				<td>
+					<div class="info">필요한 경우, <strong>/theme/st-basic/_inc/slider.php</strong> 파일을 직접 수정하세요.</div>		
+				</td>		
+				<th scope="row"></th>
+				<td></td>				
+			</tr>			
 			</tbody>
 			</table>
 		</div>			
@@ -357,7 +375,15 @@
 					<p style="padding-bottom:0">타켓:&nbsp;&nbsp;<input type="text" name="st_sidebar_banner_target_<?=$i?>" value="<?=$ST->theme->get('st_sidebar_banner_target_'.$i)?>" class="frm_input" size="50"></p>
 				</td>					
 			</tr>				
-			<?php } ?>			
+			<?php } ?>
+			<tr>
+				<th scope="row">사이드바 소스코드</th>
+				<td>
+					<div class="info">필요한 경우, <strong>/theme/st-basic/_inc/sidebar.php</strong> 파일을 직접 수정하세요.</div>		
+				</td>		
+				<th scope="row"></th>
+				<td></td>						
+			</tr>			
 			</tbody>
 			</table>
 		</div>			
@@ -402,7 +428,15 @@
 						<option value="1"<?=$ST->theme->get('st_footer_visit')? ' selected="selected"': ''?>>예</option>
 					</select>
 				</td>
-			</tr>	
+			</tr>
+			<tr>
+				<th scope="row">푸터 소스코드</th>
+				<td>
+					<div class="info">필요한 경우, <strong>/theme/st-basic/_inc/footer.php</strong> 파일을 직접 수정하세요.</div>		
+				</td>		
+				<th scope="row"></th>
+				<td></td>							
+			</tr>
 			</tbody>
 			</table>
 		</div>			
