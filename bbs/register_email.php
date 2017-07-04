@@ -20,9 +20,9 @@ if(!$ckey || $ckey != $key)
 
 $skin_file = $member_skin_path.'/register_email.skin.php';
 if( file_exists($skin_file) ) {
-	include_once($skin_file);
-	include_once('./_tail.php');
-	return;
+    include_once($skin_file);
+    include_once('./_tail.php');
+    return;
 }
 ?>
 

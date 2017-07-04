@@ -1,9 +1,7 @@
 <?php if (!defined('_GNUBOARD_')) exit;
 
-define('ST_VER', '5.2.6.5');
-define('ST_VER_DATE', '2017.01.30');
-//define('ST_VER', '5.2.4.4');
-//define('ST_VER_DATE', '2016.11.29');
+define('ST_VER', '5.2.9.6');
+define('ST_VER_DATE', '2017.07.04');
 
 require_once ST_PATH.'/helpers/st_helper.php';
 require_once 'ST_Config.php';
